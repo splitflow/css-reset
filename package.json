@@ -1,23 +1,26 @@
 {
-  "name": "the-new-css-reset",
-  "version": "1.8.4",
-  "description": "the new CSS reset, using new css features",
-  "main": "css/reset.css",
-  "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
-  },
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/elad2412/the-new-css-reset.git"
-  },
+  "name": "@splitflow/css-reset",
+  "version": "1.0.0",
+  "description": "CSS reset for SplitFlow",
+  "author": "team@splitflow.io",
+  "homepage": "https://github.com/splitflow/css-reset#readme",
+  "license": "MIT",
   "keywords": [
     "css",
     "css-reset"
   ],
-  "author": "Elad Shechter",
-  "license": "MIT",
+  "main": "index.css",
   "bugs": {
-    "url": "https://github.com/elad2412/the-new-css-reset/issues"
+    "url": "https://github.com/splitflow/css-reset/issues"
   },
-  "homepage": "https://github.com/elad2412/the-new-css-reset#readme"
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/splitflow/css-reset.git"
+  },
+  "files": [
+    "**.css"
+  ],
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  }
 }
